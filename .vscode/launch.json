@@ -1,0 +1,118 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "StudentCard",
+            "request": "launch",
+            "mainClass": "authentication.StudentCard",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "StudentLoginForm",
+            "request": "launch",
+            "mainClass": "authentication.StudentLoginForm",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "Form",
+            "request": "launch",
+            "mainClass": "StudentForm.Form",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "AdminLoginForm",
+            "request": "launch",
+            "mainClass": "authentication.AdminLoginForm",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "Table",
+            "request": "launch",
+            "mainClass": "table.Table",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "TableGUI",
+            "request": "launch",
+            "mainClass": "table.TableGUI",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "Navbar",
+            "request": "launch",
+            "mainClass": "navbar.Navbar",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "main.Main",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "Loading",
+            "request": "launch",
+            "mainClass": "loaders.Loading",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "RotatingLoader",
+            "request": "launch",
+            "mainClass": "loaders.RotatingLoader",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "CourseManagementSystem",
+            "request": "launch",
+            "mainClass": "cms.CourseManagementSystem",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "RotatingLoader",
+            "request": "launch",
+            "mainClass": "RotatingLoader",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "LoaderAnimation",
+            "request": "launch",
+            "mainClass": "LoaderAnimation",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "CourseManagementSystem",
+            "request": "launch",
+            "mainClass": "CourseManagementSystem",
+            "projectName": "ITSE Project - ( Course Management System )_30caf8c9"
+        },
+        {
+            "type": "java",
+            "name": "Video",
+            "request": "launch",
+            "mainClass": "Video",
+            "projectName": "video bg_74c69ee6",
+            "vmArgs": "--module-path \"C:/Users/TAYYAB/OneDrive/Desktop/ITSE Project - ( Course Management System )/javafx-sdk-23.0.1/lib\" --add-modules javafx.controls,javafx.media"
+        }
+    ]
+}
