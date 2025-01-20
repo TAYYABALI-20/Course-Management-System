@@ -1,4 +1,4 @@
-package authentication;
+package StudentCard;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -148,9 +148,7 @@ public class StudentCard extends JFrame {
         leftArrowButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
 
         leftArrowButton.addActionListener(e -> {
-            // Close the current window
             StudentCard.this.dispose();
-            // Start the Course Management System
             SwingUtilities.invokeLater(CourseManagementSystem::start);
         });
 

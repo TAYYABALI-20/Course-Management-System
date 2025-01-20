@@ -28,21 +28,24 @@ public class UpdateStudent {
 
             try {
 
-                currentId = Integer.parseInt(idInput);
+                int updateId = Integer.parseInt(idInput);
 
                 StudentList student = StudentList.STUDENT_RECORDS.stream()
-                        .filter(s -> s.getId() == currentId)
+                        .filter(s -> s.getId() == updateId)
                         .findFirst()
                         .orElse(null);
 
                 if (student != null) {
 
+                    CreateStudent.isEditMode = true;
+                    CreateStudent.currentId = updateId;
+
+                    Form.idField.setText(String.valueOf(updateId));
                     Form.nameField.setText(student.getName());
                     Form.rollField.setText(student.getRollNo());
                     Form.programField.setText(student.getProgram());
                     Form.enableFormFields(true);
                     Form.enableIDField(false);
-                    isEditMode = true;
 
                     JOptionPane.showMessageDialog(null,
                             "Student details have been successfully loaded.\n" +
@@ -52,7 +55,7 @@ public class UpdateStudent {
                 } else {
 
                     JOptionPane.showMessageDialog(null,
-                            "No record found for the entered Student ID: " + currentId + ".\n" +
+                            "No record found for the entered Student ID: " + updateId + ".\n" +
                                     "Please ensure the ID is correct and try again.",
                             "Student Not Found",
                             JOptionPane.WARNING_MESSAGE);

@@ -10,9 +10,9 @@ public class CreateStudent {
 
     private Table table;
 
-    private boolean isEditMode = false;
+    public static boolean isEditMode = false;
 
-    private static int currentId = -1;
+    public static int currentId = -1;
 
     private static ResetForm resetForm = new ResetForm();
 
@@ -40,6 +40,10 @@ public class CreateStudent {
                 table.insertStudentList();
 
                 resetForm.resetForm(table);
+
+                isEditMode = false;
+
+                currentId = -1;
 
                 JOptionPane.showMessageDialog(null,
                         "The student record has been successfully updated.",

@@ -1,6 +1,8 @@
 package authentication;
 
 import javax.swing.*;
+
+import StudentCard.StudentCard;
 import StudentList.StudentList;
 import java.awt.*;
 import java.awt.event.*;
